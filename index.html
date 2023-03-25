@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>KeyBeats</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <!-- google fonts  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
+</head>
+
+<h1 id="Title">KeyBeats</h1>
+<h2 id="Subtitle">Play the piano online... for free!</h2>
+
+<body>
+  <div id="recentNoteContainer"></div>
+  
+  <div id="btns">
+    <button id="record">START RECORDING</button>
+    <button id="clear">CLEAR RECORDINGS</button>
+    <div id="recordings"></div>
+  </div>
+
+  <div id="pianoContainer">
+
+    <div id="piano">
+      <div class="row natural">
+        <div data-key="65" data-note="C" class="white key">
+          <div data-key="87" data-note="C#" class="black key">W</div>A
+        </div>
+        <div data-key="83" data-note="D" class="white key">
+          <div data-key="69" data-note="D#" class="black key">E</div>S
+        </div>
+        <div data-key="68" data-note="E" class="white key">D
+        </div>
+        <div data-key="70" data-note="F" class="white key">
+          <div data-key="84" data-note="F#" class="black key">T</div>
+          F
+        </div>
+        <div data-key="71" data-note="G" class="white key">
+          <div data-key="89" data-note="G#" class="black key">Y</div>
+          G
+        </div>
+        <div data-key="72" data-note="A" class="white key">
+          <div data-key="85" data-note="A#" class="black key">U</div>
+          H
+        </div>
+        <div data-key="74" data-note="B" class="white key">
+
+          J
+        </div>
+        <div data-key="75" data-note="C" class="white key">
+          <div data-key="79" data-note="C#" class="black key">O</div>
+          K
+        </div>
+        <div data-key="76" data-note="D" class="white key">
+          <div data-key="80" data-note="D#" class="black key">P</div>
+          L
+        </div>
+        <div data-key="186" data-note="E" class="white key">
+
+          ;
+        </div>
+
+      </div>
+
+
+    </div>
+  </div>
+
+  <audio data-key="65" src="sounds/040.wav"></audio>
+  <audio data-key="87" src="sounds/041.wav"></audio>
+  <audio data-key="83" src="sounds/042.wav"></audio>
+  <audio data-key="69" src="sounds/043.wav"></audio>
+  <audio data-key="68" src="sounds/044.wav"></audio>
+  <audio data-key="70" src="sounds/045.wav"></audio>
+  <audio data-key="84" src="sounds/046.wav"></audio>
+  <audio data-key="71" src="sounds/047.wav"></audio>
+  <audio data-key="89" src="sounds/048.wav"></audio>
+  <audio data-key="72" src="sounds/049.wav"></audio>
+  <audio data-key="85" src="sounds/050.wav"></audio>
+  <audio data-key="74" src="sounds/051.wav"></audio>
+  <audio data-key="75" src="sounds/052.wav"></audio>
+  <audio data-key="79" src="sounds/053.wav"></audio>
+  <audio data-key="76" src="sounds/054.wav"></audio>
+  <audio data-key="80" src="sounds/055.wav"></audio>
+  <audio data-key="186" src="sounds/056.wav"></audio>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
